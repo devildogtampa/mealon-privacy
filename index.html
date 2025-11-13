@@ -20,56 +20,291 @@
             color: #ff6b35;
             margin-top: 30px;
         }
+        h3 {
+            color: #ff6b35;
+            margin-top: 20px;
+            font-size: 1.1em;
+        }
         .last-updated {
             color: #666;
             font-style: italic;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #ff6b35;
+            color: white;
+        }
+        ul {
+            margin: 10px 0;
+        }
+        li {
+            margin: 5px 0;
         }
     </style>
 </head>
 <body>
     <h1>Privacy Policy for Meal On!</h1>
-    <p class="last-updated">Last Updated: October 28, 2025</p>
+    <p class="last-updated">Last Updated: November 13, 2025</p>
 
     <p>This Privacy Policy describes how Meal On! ("we," "our," or "us") collects, uses, and shares information when you use our mobile application.</p>
 
     <h2>Information We Collect</h2>
-    <p>We collect information you provide when creating an account, including your name, email address, and profile information. We also collect usage data, device information, and location data (with your permission) to improve your experience and provide relevant restaurant recommendations.</p>
+    <p>We collect the following categories of information:</p>
 
-    <h2>Third-Party Services</h2>
-    <p>Our app uses the following third-party services:</p>
+    <h3>1. Account Information</h3>
     <ul>
-        <li><strong>Google Places API:</strong> We use Google Places API to provide restaurant information, ratings, reviews, and location data. This service may collect and process location data according to Google's Privacy Policy.</li>
-        <li><strong>Supabase:</strong> We use Supabase as our backend service provider for user authentication and data storage. Your data is stored securely on their servers.</li>
-        <li><strong>Google Play Billing:</strong> For in-app subscriptions, we use Google Play's billing system which processes payment information according to Google's Privacy Policy.</li>
+        <li>Name, email address, and password (encrypted)</li>
+    </ul>
+
+    <h3>2. Location Information</h3>
+    <ul>
+        <li>Precise GPS coordinates (with your permission)</li>
+        <li><strong>Purpose:</strong> Show nearby restaurants, calculate distances, and provide driving directions</li>
+        <li>You can control location permissions through your device settings at any time</li>
+    </ul>
+
+    <h3>3. Usage Information</h3>
+    <ul>
+        <li>Buttons clicked and features used</li>
+        <li>Restaurants saved to favorites</li>
+        <li>Search queries and filters</li>
+        <li><strong>Purpose:</strong> Understand which features you find most useful and improve the app</li>
+    </ul>
+
+    <h3>4. Device Information</h3>
+    <ul>
+        <li>Device type and model</li>
+        <li><strong>Purpose:</strong> Fraud protection and technical support</li>
+    </ul>
+
+    <h3>5. Subscription Information</h3>
+    <ul>
+        <li>Subscription tier (Free, Orange, or Blue)</li>
+        <li>Subscription status and changes</li>
+        <li>Date of signup</li>
+        <li>Date of subscription modifications</li>
+        <li>Date of account deletion (if applicable)</li>
+        <li><strong>Note:</strong> Payment processing is handled entirely by Google Play</li>
     </ul>
 
     <h2>How We Use Your Information</h2>
-    <p>We use your information to provide and improve our services, personalize your experience, communicate with you, process transactions, and ensure security. We will not sell your personal information to third parties.</p>
+    <p>We use your information to:</p>
+    <ul>
+        <li>Provide and improve our services</li>
+        <li>Show you nearby restaurants based on your location</li>
+        <li>Process and manage your subscription</li>
+        <li>Ensure security and prevent fraud</li>
+        <li>Comply with legal obligations</li>
+        <li>Understand which features users find most valuable</li>
+    </ul>
+    <p><strong>We will not sell your personal information to third parties.</strong></p>
 
-    <h2>Location Data</h2>
-    <p>With your permission, we collect location data to show you nearby restaurants and calculate distances. You can control location permissions through your device settings at any time.</p>
+    <h2>Analytics and Tracking</h2>
+    <p><strong>We do not use third-party analytics services.</strong> All usage data (button clicks, favorites, feature usage) is collected and stored internally through our own systems to improve the app. This data is never shared with third parties except our infrastructure and service providers as described below.</p>
 
-    <h2>Subscription and Payment Information</h2>
-    <p>If you purchase a subscription, payment processing is handled by Google Play. We do not store your credit card or payment information. We only receive confirmation of your subscription status to provide you with the appropriate tier features.</p>
+    <h2>Third-Party Services</h2>
+    <p>Our app uses the following third-party services:</p>
+
+    <h3>Google Places API</h3>
+    <p>We use Google Places API to provide restaurant information, ratings, reviews, and location data. When you search for restaurants, your location data is sent to Google according to <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>.</p>
+
+    <h3>Mapbox API</h3>
+    <p>We use Mapbox for geolocation services and calculating driving directions to restaurants. Your location data is processed by Mapbox according to <a href="https://www.mapbox.com/legal/privacy" target="_blank">Mapbox's Privacy Policy</a>.</p>
+
+    <h3>Supabase</h3>
+    <p>We use Supabase as our backend service provider for user authentication and secure data storage. Your data is encrypted and stored on their servers in accordance with industry security standards.</p>
+
+    <h3>Google Play Billing</h3>
+    <p>For in-app subscriptions, we use Google Play's billing system. Google processes all payment information according to <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a>. <strong>We do not store or have access to your credit card or payment information.</strong> We only receive confirmation of your subscription status to provide you with the appropriate tier features.</p>
 
     <h2>Information Sharing</h2>
-    <p>We may share your information with service providers who help us operate the app (such as Supabase and Google), and as required by law. Your public profile information and content you post may be visible to other users based on your privacy settings.</p>
+    <p>We share your information only in the following limited circumstances:</p>
 
-    <h2>Your Rights</h2>
-    <p>You have the right to access, correct, or delete your personal data. You can manage your privacy settings within the app, opt out of promotional communications, and control who sees your content.</p>
+    <h3>Service Providers</h3>
+    <ul>
+        <li><strong>Supabase:</strong> Backend infrastructure and data storage</li>
+        <li><strong>Google Places API:</strong> Restaurant information and location services</li>
+        <li><strong>Mapbox API:</strong> Geolocation and driving directions</li>
+        <li><strong>Google Play:</strong> Subscription processing</li>
+    </ul>
+    <p>These providers are contractually obligated to protect your data and use it only to provide services to us.</p>
+
+    <h3>Legal Requirements</h3>
+    <p>We may disclose your information if required by law, court order, or government regulation, or to:</p>
+    <ul>
+        <li>Comply with legal processes</li>
+        <li>Protect our rights and property</li>
+        <li>Prevent fraud or security issues</li>
+        <li>Protect the safety of our users</li>
+    </ul>
+
+    <h3>Business Transfers</h3>
+    <p>If Meal On! is acquired, merges with another company, or sells substantially all of its assets, your information may be transferred to the acquiring entity. We will notify you via in-app notification before any such transfer occurs and before your data becomes subject to a different privacy policy.</p>
+
+    <h2>Data Retention</h2>
+    <p>We will keep your personal information for as long as needed to perform our obligations to you, or for as long as legally permitted. The criteria used to determine our retention periods include:</p>
+    <ul>
+        <li>The length of time we have an ongoing relationship with you (i.e., as long as your account is active)</li>
+        <li>Whether there is a legal obligation to which we are subject (such as tax and financial record requirements)</li>
+        <li>Whether retention is advisable in light of our legal position (such as in regard to applicable statutes of limitations, litigation, or regulatory investigations)</li>
+    </ul>
+    <p>For example, we keep your account information, like your name, email address, and password, for as long as your account exists so that you may access it.</p>
+    <p>You can request deletion of your data by contacting us at devildogtampa@gmail.com or by deleting your account through the app. We will process deletion requests in accordance with applicable law, except where retention is required for legal compliance.</p>
+
+    <h2>Your Privacy Rights</h2>
+    <p>You have the following rights regarding your personal information:</p>
+
+    <h3>Access</h3>
+    <p>You have the right to know what personal information we have collected about you and request a copy of that information.</p>
+
+    <h3>Correction</h3>
+    <p>You have the right to correct inaccurate personal information.</p>
+
+    <h3>Deletion</h3>
+    <p>You have the right to request deletion of your personal information. You can delete your account at any time through the app or by contacting us.</p>
+
+    <h3>Data Portability</h3>
+    <p>You have the right to receive your personal information in a portable format.</p>
+
+    <h3>Location Control</h3>
+    <p>You can control location permissions through your device settings at any time (Device Settings > Meal On! > Location). Disabling location will limit certain app features that require location data.</p>
+
+    <h3>How to Exercise Your Rights</h3>
+    <p>To exercise any of these rights:</p>
+    <ol>
+        <li>Email us at devildogtampa@gmail.com with your request</li>
+        <li>Include your full name and account email address</li>
+        <li>Specify which right you wish to exercise</li>
+        <li>We will verify your identity before processing your request</li>
+        <li>We will respond without undue delay</li>
+    </ol>
+
+    <h2>California Privacy Rights</h2>
+    <p>If you are a California resident, you have additional rights under the California Consumer Privacy Act (CCPA):</p>
+
+    <h3>Right to Know</h3>
+    <p>You have the right to know:</p>
+    <ul>
+        <li>What categories of personal information we collect</li>
+        <li>The purposes for which we use your information</li>
+        <li>What categories of information we share with third parties</li>
+        <li>What specific pieces of personal information we have about you</li>
+    </ul>
+
+    <h3>Right to Delete</h3>
+    <p>You have the right to request deletion of your personal information, subject to certain exceptions (e.g., completing transactions, legal compliance).</p>
+
+    <h3>Right to Non-Discrimination</h3>
+    <p>You have the right not to receive discriminatory treatment for exercising your CCPA rights.</p>
+
+    <h3>Categories of Personal Information We Collect</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Examples</th>
+                <th>Purpose</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Identifiers</td>
+                <td>Name, email, device ID</td>
+                <td>Account creation, authentication</td>
+            </tr>
+            <tr>
+                <td>Geolocation</td>
+                <td>GPS coordinates</td>
+                <td>Restaurant search and driving directions</td>
+            </tr>
+            <tr>
+                <td>Commercial Information</td>
+                <td>Subscription tier, subscription history</td>
+                <td>Provide tiered features</td>
+            </tr>
+            <tr>
+                <td>Internet Activity</td>
+                <td>Buttons clicked, features used, favorites</td>
+                <td>Improve app functionality</td>
+            </tr>
+            <tr>
+                <td>Device Information</td>
+                <td>Phone model</td>
+                <td>Fraud prevention</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Sale/Sharing of Personal Information</h3>
+    <p><strong>We do not sell your personal information.</strong> We share limited information with service providers (Supabase, Google Places API, Mapbox) as described in this policy to operate the app. Under the CCPA, this may be considered "sharing." You can control location sharing through your device settings.</p>
+
+    <h3>Exercising California Rights</h3>
+    <p>To exercise your California privacy rights, contact us at devildogtampa@gmail.com. We will respond within 45 days.</p>
+
+    <h2>Other U.S. State Privacy Rights</h2>
+    <p>If you are a resident of Virginia, Colorado, Connecticut, Utah, Montana, Oregon, Texas, or other states with comprehensive privacy laws, you may have additional rights including:</p>
+    <ul>
+        <li>Right to confirm whether we process your personal information</li>
+        <li>Right to access your personal information</li>
+        <li>Right to correct inaccuracies in your personal information</li>
+        <li>Right to delete your personal information</li>
+        <li>Right to obtain a copy of your personal information</li>
+    </ul>
+    <p>To exercise these rights, contact us at devildogtampa@gmail.com.</p>
+
+    <h2>International Users</h2>
+    <p>Meal On! is based in the United States. If you access our app from outside the United States, your information will be transferred to, stored, and processed in the United States. By using our app, you consent to the transfer of your information to the United States and acknowledge that U.S. data protection laws may differ from those in your country.</p>
 
     <h2>Data Security</h2>
-    <p>We implement appropriate security measures to protect your personal information, including encryption and secure data storage. However, no method of transmission over the internet is 100% secure.</p>
+    <p>We implement industry-standard security measures to protect your personal information, including:</p>
+    <ul>
+        <li><strong>Encryption in transit:</strong> All data transmitted between your device and our servers uses TLS/SSL encryption</li>
+        <li><strong>Encryption at rest:</strong> Sensitive data is encrypted when stored</li>
+        <li><strong>Access controls:</strong> Limited employee access to personal data on a need-to-know basis</li>
+        <li><strong>Secure infrastructure:</strong> Data stored on Supabase's secure cloud servers</li>
+        <li><strong>Regular security reviews:</strong> Ongoing monitoring for vulnerabilities</li>
+        <li><strong>Password protection:</strong> Your password is encrypted using industry-standard hashing</li>
+    </ul>
+
+    <h3>Data Breach Notification</h3>
+    <p>In the event of a data breach that affects your personal information, we will notify you via in-app notification and will provide information about the breach and steps you can take to protect yourself.</p>
+    <p><strong>However, no method of transmission over the internet or electronic storage is 100% secure.</strong> While we strive to protect your information, we cannot guarantee absolute security.</p>
 
     <h2>Children's Privacy</h2>
-    <p>Our service is not intended for children under 13. We do not knowingly collect personal information from children. If we learn we have collected such information, we will delete it immediately.</p>
+    <p>Our service is intended for users aged 13 and older. We do not knowingly collect personal information from children under 13 years of age. Users between 13-17 should have parental or guardian consent before using our app.</p>
+    <p>If we learn that we have collected personal information from a child under 13, or from a user between 13-17 without parental consent, we will delete that information immediately upon discovery. If you believe a child has provided us with personal information, please contact us at devildogtampa@gmail.com.</p>
 
     <h2>Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the "Last Updated" date.</p>
+    <p>We may update this Privacy Policy from time to time to reflect changes in our practices, technology, legal requirements, or other factors.</p>
+    <p>When we make material changes to this policy, we will:</p>
+    <ul>
+        <li>Update the "Last Updated" date at the top</li>
+        <li>Display an in-app notification when you next open the app</li>
+        <li>Post the updated policy on this page</li>
+    </ul>
+    <p>We encourage you to review this Privacy Policy periodically. Your continued use of the app after changes take effect constitutes acceptance of the updated policy.</p>
 
     <h2>Contact Us</h2>
-    <p>If you have any questions about this Privacy Policy, please contact us at:</p>
-    <p>Email: devildogtampa@gmail.com</p>
+    <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us at:</p>
+    <p><strong>Email:</strong> devildogtampa@gmail.com</p>
+    <p>For data deletion requests, privacy rights requests, or security concerns, please include "Privacy Request" in your email subject line.</p>
+
+    <hr style="margin-top: 40px; border: none; border-top: 1px solid #ddd;">
+    <p style="text-align: center; color: #666; font-size: 0.9em;">
+        <strong>Effective Date:</strong> November 13, 2025<br>
+        <strong>Meal On!</strong> is committed to protecting your privacy and handling your data responsibly.
+    </p>
 
 </body>
 </html>
